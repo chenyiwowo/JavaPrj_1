@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+  <bean id="SimpleBean1" class="com.bean.SimpleBean">
+		<property name="name" value="Bill"></property>
+		<property name="age" value="19"></property>
+  </bean> 
+  
+  <bean id="SimpleBean2" class="com.bean.SimpleBean">
+		<property name="age" value="20"></property>
+  </bean>
+  
+   <bean id="SimpleBean3" class="com.bean.SimpleBean">
+		<property name="name" value="Charles"></property>
+  </bean> 
+
+</beans>

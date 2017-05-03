@@ -9,5 +9,6 @@ public class test {
 		for(int j=1;j<=3;j++){
 			context.getBean("SimpleBean"+j);
 		}
+		System.out.println("hahahah");
 	}
 }
